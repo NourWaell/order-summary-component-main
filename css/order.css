@@ -1,0 +1,147 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+a {
+    text-decoration: none;
+  }
+
+/* start */
+.back{
+    width: 100%;
+    display: block;
+}
+.container {
+    width: 450px;
+    height: 720px;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0px 24px 20px 0px hsl(224deg 23% 55% / 35%);
+}
+@media (max-width: 768px) {
+    .container {
+        width: 350px;
+    }
+}
+.container .hero {
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
+    width: fit-content;
+}
+@media (max-width: 768px) {
+    .container .hero {
+        width: 350px;
+    }
+}
+.container .text {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.container .text p {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #777;
+}
+.container .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    padding: 0 20px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 15px auto;
+    height: 100px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+@media (max-width:768px) {
+    .container .box {
+        width: 300px;
+    }
+}
+.container .box .textbox {
+    margin-right: 70px;
+}
+@media (max-width:768px) {
+    .container .box .textbox {
+        margin-right: 30px;
+    }
+}
+.container .box h2 {
+    font-size: 16px;
+    font-weight: 900;
+}
+.container .box .price {
+    font-size: 16px;
+    color: #777;
+    font-weight: 500;
+}
+.container .box a {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+}
+.container .box a:hover {
+    text-decoration: none;
+    color: hsl(225, 100%, 80%);
+}
+.container .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    height: 100px;
+    justify-content: space-around;
+}
+.container .buttons .purchase {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 350px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 2px 5px 14px 0px hsl(224deg 23% 55%);
+}
+.container .buttons .purchase:hover {
+    background-color: hsl(225, 100%, 80%);
+}
+@media (max-width:768px) {
+    .container .buttons .purchase {
+        width: 300px;
+    }
+}
+.container .buttons .cancle {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    height: 0px;
+    margin-top: 50px;
+}
+.container .buttons .cancle:hover {
+    color: hsl(223, 47%, 23%);
+}
