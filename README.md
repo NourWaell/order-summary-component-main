@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/ordersummarycomponentmain-using-html-and-css-9jWIeSpn4I]
+- Live Site URL: [https://order-summary-component-main-omega-three.vercel.app/]
 
 ### Built with
 
